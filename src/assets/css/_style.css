@@ -1,0 +1,56 @@
+.error-msg {
+  color: #ef4444;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+
+  @apply ml-2  mt-2;
+}
+
+.card {
+  background-clip: padding-box;
+  box-shadow: 0 2px 6px 0 rgb(67 89 113 / 12%);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid #d9dee3;
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 30px;
+}
+
+.card-header {
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 0 solid #d9dee3;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem 1.5rem;
+}
+.card .card-header + .card-body,
+.card .card-header + .card-content > .card-body:first-of-type {
+  padding-top: 0;
+}
+
+.text-long {
+  @apply truncate;
+}
+
+hr.light {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  @apply bg-gray-200 text-gray-200;
+}

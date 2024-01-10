@@ -1,0 +1,30 @@
+{
+  "name": "vue-admin-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/themes": "^1.0.0-beta.10",
+    "@formkit/vue": "^1.0.0-beta.10",
+    "@popperjs/core": "^2.9.3",
+    "axios": "^0.27.2",
+    "flowbite": "^1.4.7",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.12",
+    "vue-use-popperjs": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.2",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.8",
+    "vue-tsc": "^0.34.11"
+  }
+}

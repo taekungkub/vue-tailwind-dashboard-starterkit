@@ -1,0 +1,28 @@
+.alert {
+  position: relative;
+  padding: 0.9375rem 0.9375rem;
+  margin-bottom: 1rem;
+  border: 0 solid transparent;
+  border-radius: 0.375rem;
+}
+
+.alert-primary {
+  @apply bg-primary text-white border-primary;
+}
+
+.alert-secondary {
+  @apply bg-secondary text-white border-secondary;
+}
+.alert-warning {
+  @apply bg-warning text-white border-warning;
+}
+.alert-danger {
+  @apply bg-danger text-white border-danger;
+}
+.alert-success {
+  @apply bg-success text-white border-success;
+}
+
+.alert-info {
+  @apply bg-info text-white border-info;
+}
